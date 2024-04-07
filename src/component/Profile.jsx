@@ -38,8 +38,8 @@ const Profile = () => {
             </div>
             {activeButton === 'ORDERS' && (
                 <>
-                    <div className="bg-white  flex justify-between shadow-md mt-4 border border-gray-300">
-                        <div className="ml-6">
+                    <div className="bg-white  flex justify-between shadow-md mt-4 border border-gray-300 gap-3">
+                        <div className="ml-6 flex flex-col justify-center text-justify">
                             <h2 className="text-lg font-semibold mb-2">ORDER #1293</h2>
                             <p ><span className="font-bold">PRODUCTS:</span> Sample Book Name</p>
                             <p><span className="font-bold">DATE:</span> 10/3/2024</p>
@@ -65,9 +65,10 @@ const Profile = () => {
                             <p>PIN: 857888</p>
                         </div>
                         <div className="flex flex-col mt-4">
-                            <button className="bg-black text-white px-3 py-2 mb-2">VIEW DETAILS</button>
-                            <button className="bg-black text-white px-3 py-2 mb-2 ">TRACK ORDER</button>
-                            <button className="bg-black text-white px-3 py-2 g ">DOWNLOAD INVOICE</button>
+                        <button className="bg-black text-white px-3 py-2 mb-2 text-sm">VIEW DETAILS</button>
+<button className="bg-black text-white px-3 py-2 mb-2 text-sm">TRACK ORDER</button>
+<button className="bg-black text-white px-3 py-2 mb-2 text-sm">DOWNLOAD INVOICE</button>
+
                         </div>
                     </div>
                 </>
